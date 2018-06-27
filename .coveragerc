@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/boto3_graph
+   */site-packages/boto3_graph
+
+[run]
+branch = true
+source =
+    boto3_graph
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
